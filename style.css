@@ -1,0 +1,158 @@
+body {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "iranyekan";
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "iranyekan";
+  box-shadow: 0 0 5px 0 #888888;
+  margin-bottom: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar_rightside {
+  display: flex;
+  justify-content: space-around;
+  gap: 35px;
+  align-items: center;
+  margin-right: 20px;
+}
+.navbar_rightside img {
+  width: 48px;
+  height: 48px;
+}
+.navbar_rightside button {
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.navbar_rightside .city:hover {
+  background-color: lightgray;
+}
+.navbar_rightside .category:hover {
+  background-color: lightgray;
+}
+.navbar_rightside input {
+  margin-bottom: 20px;
+  direction: rtl;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  color: lightgray;
+  background-color: #f3f0f0;
+  border: 1px solid #f8f8f8;
+}
+
+.navbar_leftside {
+  display: flex;
+  align-items: center;
+  margin-right: 248px;
+  gap: 20px;
+}
+.navbar_leftside .items_leftside {
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.navbar_leftside .items_leftside:hover {
+  background-color: lightgray;
+}
+.navbar_leftside .items--red_leftside {
+  background-color: #a62626;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+.navbar_leftside .items--red_leftside:hover {
+  background-color: darkred;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+}
+.main .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-right: 98px;
+  margin-left: 23px;
+  gap: 20px 20px;
+  direction: rtl;
+}
+.main .cards img {
+  width: 136px;
+  height: 136px;
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px 15px;
+}
+.main .cards .shop_card {
+  border: 1px solid #888888;
+  border-radius: 5px;
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.main .cards .clock {
+  font-size: 12px;
+}
+.main .cards .text {
+  padding-right: 15px;
+}
+.main .title {
+  direction: rtl;
+  width: 307px;
+}
+.main .title li {
+  padding-bottom: 15px;
+  cursor: pointer;
+  padding-right: 0px;
+  margin-right: -15px;
+}
+.main .title ul {
+  list-style-type: none;
+}
+.main .title p {
+  padding-right: 25px;
+}
+.main .title .border {
+  border-top: 1px solid #888888;
+  padding-top: 10px;
+  width: 192px;
+}
+.main .title .more__information {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+.main .title .icon {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #888888;
+}
+.main .title .logo {
+  display: flex;
+  height: 84px;
+  width: 84px;
+}
+.main .title i {
+  color: #888888;
+}/*# sourceMappingURL=style.css.map */
